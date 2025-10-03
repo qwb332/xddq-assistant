@@ -1,0 +1,26 @@
+{
+    "name": "xddq-assistant",
+    "version": "1.0.0",
+    "main": "app.js",
+    "type": "module",
+    "license": "MIT",
+    "imports": {
+        "#*": "./src/*"
+    },
+    "dependencies": {
+        "async": "^3.2.5",
+        "axios": "^1.9.0",
+        "crypto-js": "^4.2.0",
+        "long": "^5.2.3",
+        "node-schedule": "^2.1.1",
+        "protobufjs": "^7.3.0",
+        "qs": "^6.14.0",
+        "readline-sync": "^1.4.10",
+        "uuid": "^11.1.0",
+        "winston": "^3.13.0",
+        "ws": "^8.17.0"
+    },
+    "scripts": {
+        "start": "node app.js"
+    }
+}
